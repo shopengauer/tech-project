@@ -1,10 +1,10 @@
-package ru.sbpa.techproject
+package ru.sbpa.webflux
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class TechProjectApplicationTests {
+class WebFluxApplicationTests {
 
     @Test
     fun contextLoads() {

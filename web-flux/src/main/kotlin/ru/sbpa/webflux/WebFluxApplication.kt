@@ -1,11 +1,11 @@
-package ru.sbpa.techproject
+package ru.sbpa.webflux
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class TechProjectApplication
+class WebFluxApplication
 
 fun main(args: Array<String>) {
-    runApplication<TechProjectApplication>(*args)
+    runApplication<WebFluxApplication>(*args)
 }
