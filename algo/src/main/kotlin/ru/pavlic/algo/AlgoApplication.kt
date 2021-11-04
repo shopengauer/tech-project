@@ -1,11 +1,11 @@
-package ru.sbpa.webflux
+package ru.pavlic.algo
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-open class WebFluxApplication
+open class AlgoApplication
 
 fun main(args: Array<String>) {
-    runApplication<WebFluxApplication>(*args)
+    runApplication<AlgoApplication>(*args)
 }
